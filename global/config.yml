@@ -1,0 +1,12 @@
+object:
+    minio:
+        endpoint: milvus-minio:9000
+        accessKey: minioadmin
+        secretKey: minioadmin
+        token:
+        useSsl: false
+
+app:
+    projectRoot: /app
+    mode: debug
+    port: :5001
