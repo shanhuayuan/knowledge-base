@@ -6,6 +6,19 @@ object:
         token:
         useSsl: false
 
+knowledge:
+    milvus:
+        address: milvus-standalone
+        port: 19530
+
+database:
+    mysql:
+        user: root
+        password: mysqladmin
+        port: 3306
+        database: knowledge
+#        dsn: root:tianjianxiang@tcp(mysql:3306)/uav?charset=utf8mb4&parseTime=True&loc=Local
+
 app:
     projectRoot: /app
     mode: debug

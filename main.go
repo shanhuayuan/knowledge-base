@@ -6,9 +6,14 @@ import (
 )
 
 func main() {
-	global.InitConfig()
-	global.InitMinio()
+	_ = global.InitConfig()
+	_ = global.InitMinio()
+	_ = global.InitMysql()
+	_ = global.InitMilvus()
+
+	global.InitChunker()
 
 	r := router.SetupRouter()
-	r.Run(global.OverallRuntime.Config.App.Port)
+	//fmt.Printf("%v", global.OverallRuntime)
+	_ = r.Run(global.OverallRuntime.Config.App.Port)
 }
