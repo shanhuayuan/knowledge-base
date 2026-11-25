@@ -1,12 +1,12 @@
 package handler
 
 import (
-	"app/database"
 	"app/global"
 	"app/handler/api"
 	"app/model"
 
 	"github.com/gin-gonic/gin"
+	"github.com/shanhuayuan/database"
 )
 
 func ListTablesHandler(ctx *gin.Context) {

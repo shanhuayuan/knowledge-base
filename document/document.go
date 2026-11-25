@@ -6,15 +6,16 @@ import (
 	"app/global"
 	"app/knowledge"
 	"app/model"
-	"app/object"
 	"app/parser"
 	"app/provider"
-	"app/vectordb"
 	"context"
 	"errors"
 	"fmt"
 	"mime/multipart"
 	"strings"
+
+	"github.com/shanhuayuan/object"
+	"github.com/shanhuayuan/vectordb"
 )
 
 type UploadDocumentOption struct {

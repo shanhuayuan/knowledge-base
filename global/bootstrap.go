@@ -2,15 +2,17 @@ package global
 
 import (
 	"app/chunk"
-	"app/database"
-	"app/object"
-	"app/vectordb"
 	"context"
 	"errors"
+
+	"github.com/shanhuayuan/object"
+
+	"github.com/shanhuayuan/database"
 
 	"github.com/milvus-io/milvus/client/v2/milvusclient"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/shanhuayuan/vectordb"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

@@ -3,11 +3,11 @@ package handler
 import (
 	"app/global"
 	"app/handler/api"
-	"app/object"
 	"path/filepath"
 	"strings"
 
 	"github.com/gin-gonic/gin"
+	"github.com/shanhuayuan/object"
 )
 
 func ListObjectsHandler(ctx *gin.Context) {

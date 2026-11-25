@@ -3,10 +3,11 @@ package knowledge
 import (
 	"app/global"
 	"app/model"
-	"app/vectordb"
 	"context"
 	"fmt"
 	"strings"
+
+	"github.com/shanhuayuan/vectordb"
 )
 
 type InsertChunksOption struct {

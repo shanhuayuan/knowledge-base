@@ -3,9 +3,10 @@ package knowledge
 import (
 	"app/global"
 	"app/model"
-	"app/object"
 	"context"
 	"strings"
+
+	"github.com/shanhuayuan/object"
 )
 
 func kbId2collectionName(kbId string) string {

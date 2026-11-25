@@ -1,9 +1,9 @@
 package global
 
 import (
-	"app/database"
-	"app/object"
-	"app/vectordb"
+	"github.com/shanhuayuan/database"
+	"github.com/shanhuayuan/object"
+	"github.com/shanhuayuan/vectordb"
 )
 
 type Config struct {

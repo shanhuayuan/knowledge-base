@@ -3,9 +3,9 @@ package handler
 import (
 	"app/global"
 	"app/handler/api"
-	"app/vectordb"
 
 	"github.com/gin-gonic/gin"
+	"github.com/shanhuayuan/vectordb"
 )
 
 func ListCollectionsHandler(ctx *gin.Context) {

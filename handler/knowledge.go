@@ -7,10 +7,10 @@ import (
 	"app/handler/api"
 	"app/knowledge"
 	"app/model"
-	"app/vectordb"
 	"strings"
 
 	"github.com/gin-gonic/gin"
+	"github.com/shanhuayuan/vectordb"
 )
 
 // 知识库的增删改查
